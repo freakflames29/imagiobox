@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
+  scroll-behavior: smooth;
 }
 header {
   position: sticky;
@@ -208,6 +209,7 @@ header {
   justify-content: center;
   align-items: center;
   height: 250px;
+  margin-bottom: 80px;
 }
 .form__for__shop form {
   margin-top: 10px;
@@ -225,6 +227,7 @@ header {
   box-shadow: 1px 1px 5px rgba(129, 129, 129, 0.5);
   height: 500px;
   margin-top: 10px;
+  margin-bottom: 60px;
 }
 
 .form__wrapper form input {
@@ -353,4 +356,9 @@ header {
   color: white;
   text-align: center;
   font-style: 15px;
+}
+.promo__line
+{
+  text-decoration: underline;
+  cursor: pointer;
 }

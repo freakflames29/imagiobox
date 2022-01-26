@@ -27,9 +27,9 @@
             />
           </div>
           <div class="nav__bar__items">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Shop Now</a>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#shopnow">Shop Now</a>
             <a href="#">FAQ</a>
             <a href="#">Blog</a>
             <a href="#">AVES</a>
@@ -38,7 +38,7 @@
       </nav>
     </header>
     <!-- hero section -->
-    <div class="hero">
+    <div class="hero" id="home">
       <div class="hero__left">
         <h1>Imagiobox</h1>
         <h3>inspiring creativity through arts</h3>
@@ -50,7 +50,7 @@
     </div>
 
     <!-- 2nd section -->
-    <div class="sec__section">
+    <div class="sec__section" id="about">
       <div class="sec__left">
         <h2>Introducing Imagebox</h2>
         <p>
@@ -189,7 +189,7 @@
     </div>
 
     <!-- shop now form -->
-    <div class="form__for__shop">
+    <div class="form__for__shop" id="shopnow">
       <h2 class="h1">Shop Now</h2>
       <div class="form__wrapper">
       <form >
@@ -210,6 +210,12 @@
         <input type="text" placeholder="Child First Name" id="fname" required  class="input">
         <label for="lname">Last Name</label>
         <input type="text" placeholder="Child Last Name" id="lname" required>
+        <label class="promo__line" onclick="promocode()" id="promo__Text">I have a promocode</label>
+        <span id="x">
+          <!-- <input type="text" placeholder="Apply promocode" id="promocode" required> -->
+        </span>
+        
+
         <button class="btn">Checkout <span id="price"></span></button>
       </form>
     </div>
@@ -242,17 +248,17 @@
         <div class="footer__three">
           <div class="footer__email">
            <input type="email" placeholder="Enter your email" class="input email__input">
-           <button class="btn small-btn">GO <i class="fas fa-arrow-right"></i></button>
+           <button class="btn small-btn"><i class="fas fa-arrow-right"></i></button>
           </div>
           <div class="footer__last__info">
             <h3 class="h3 aves">AVES</h3>
             <p>AVES Academy aims at developing a better environment where the current learning process could be made more interactive as well as fun generative with the help of cretive thinking through arts and other contemporary educational methods.</p>
             <div class="footer__social__media">
-                <a href="#" class="foot__logo"><i class="fab fa-facebook-square"></i></a>
-                <a href="#" class="foot__logo"><i class="fab fa-twitter"></i></a>
-                <a href="#" class="foot__logo"><i class="fab fa-instagram"></i></a>
-                <a href="#" class="foot__logo"><i class="fab fa-youtube"></i></a>
-                <a href="#" class="foot__logo"><i class="fab fa-linkedin"></i></a>
+                <a href="https://facebook.com/imagiobox" class="foot__logo"><i class="fab fa-facebook-square"></i></a>
+                <a href="https://twitter.com/imagiobox" class="foot__logo"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/avesorganisation/" class="foot__logo"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com/channel/UCl8K-dvzQ1RtRG5V0e-AUEQ" class="foot__logo"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.linkedin.com/company/aves" class="foot__logo"><i class="fab fa-linkedin"></i></a>
             </div>
           </div>
         </div>
