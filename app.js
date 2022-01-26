@@ -4,13 +4,13 @@ function calcu()
     let price=0;
 
     if(val.value==='1mnth'){
-            price=670*12;
+            price=670*1;
     }
     else if(val.value==='3mnth'){
-            price=630*12;
+            price=630*3;
     }
     else if(val.value==='6mnth'){
-            price=610*12;
+            price=610*6;
     }
     else if(val.value==='12mnth'){
             price=570*12;
